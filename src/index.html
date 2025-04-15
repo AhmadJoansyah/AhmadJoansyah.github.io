@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Profile</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader"></div>
+    </div>
+
+    <header>
+        <h1 class="glowing-text">Welcome to My Gaming Profile Monsal</h1>
+        <nav>
+            <ul>
+                <li><a href="pages/about.html" class="nav-link"><i class="fas fa-user"></i> About Me</a></li>
+                <li><a href="pages/games.html" class="nav-link"><i class="fas fa-gamepad"></i> Games I Play</a></li>
+                <li><a href="pages/fivem.html" class="nav-link"><i class="fas fa-car"></i> My FiveM Experience</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="glowing-text">About Me</h2>
+            <div class="card">
+                <p>Hi! I'm a passionate gamer who loves exploring different worlds and stories through games. Here you can find more about my gaming journey.</p>
+                <div class="image-container" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="assets/images/my-photo.jpg" alt="My Photo" />
+                </div>
+                <a href="pages/about.html" class="btn">Know More About Me</a>
+            </div>
+        </section>
+
+        <section data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <h2 class="glowing-text">Featured Game</h2>
+            <div class="featured-game card">
+                <div class="game-image" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="assets/images/fivem.jpg" alt="FiveM" />
+                </div>
+                <p>Saya suka main FiveM. Roleplay di mod GTA V ini seru banget. Yuk, intip karakter dan cerita saya di sana!</p>
+                <a href="pages/fivem.html" class="btn">See My FiveM Experience</a>
+            </div>
+        </section>
+
+        <section data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+            <h2 class="glowing-text">Connect With Me</h2>
+            <div class="card">
+                <p>Yuk, temani saya menjelajahi dunia game di berbagai platform!</p>
+                <div class="social-icons">
+                    <a href="#" data-aos="zoom-in" data-aos-delay="100"><i class="fab fa-discord"></i></a>
+                    <a href="#" data-aos="zoom-in" data-aos-delay="200"><i class="fab fa-twitch"></i></a>
+                    <a href="#" data-aos="zoom-in" data-aos-delay="300"><i class="fab fa-youtube"></i></a>
+                    <a href="#" data-aos="zoom-in" data-aos-delay="400"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Gaming Profile</p>
+    </footer>
+
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

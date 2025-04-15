@@ -1,0 +1,21 @@
+{
+  "name": "gaming-profile-website",
+  "version": "1.0.0",
+  "description": "A personal gaming profile website showcasing games and experiences.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step not defined'",
+    "test": "echo 'No tests defined'"
+  },
+  "keywords": [
+    "gaming",
+    "profile",
+    "website"
+  ],
+  "author": "Monsal",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
